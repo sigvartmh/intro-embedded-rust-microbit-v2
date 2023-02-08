@@ -1,0 +1,57 @@
+/* Supporting colors */   
+.nordic-blue {
+  color: rgb(0, 162, 198);
+}
+
+.nordic-sky {
+  color: rgb(106, 209, 227);
+}
+
+.nordic-lake {
+  color: rgb(0, 119, 200);
+}
+
+.nordic-sun {
+  color: rgb(244, 203, 67);
+}
+
+.nordic-blueslate {
+  color: rgb(0, 50, 160);
+}
+
+.nordic-grass {
+  color: rgb(206, 221, 80);
+}
+
+.nordic-dark-grey {
+  color: rgb(51, 63, 72);
+}
+
+.nordic-middle-grey {
+  color: rgb(118, 134, 146);
+}
+
+.nordic-light-grey {
+  color: rgb(217, 225, 226);
+}
+
+.nordic-white {
+  color: rgb(255, 255, 255);
+}
+
+.nordic-black {
+  color: rgb(0, 0, 0);
+}
+
+.nordic-pink {
+  color: rgb(198, 0, 126);
+}
+
+.div {
+  font: 100% "GT-Eesti-Regular", Font-awesome-regular, sans-serif;
+}
+
+body {
+  font: 100% "GT-Eesti-Regular", Font-awesome-regular, sans-serif;
+  color: rgb(255, 255, 255);
+}
