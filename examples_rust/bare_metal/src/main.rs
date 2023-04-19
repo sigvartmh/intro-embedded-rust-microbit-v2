@@ -30,6 +30,7 @@ fn main() -> ! {
             // connected to the diods in the LED matrix on the board.  
             p.P0.out.write(|w| unsafe { w.bits((1 << 21) | (1 << 22)) });
         } else {
+            // sets all the registers to low
             p.P0.out.write(|w| unsafe { w.bits(0) });
         }
 

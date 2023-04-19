@@ -8,6 +8,7 @@ create this workshop book.
 * [The Embedonomicon](https://docs.rust-embedded.org/embedonomicon)
 * [The Embedded Discovery Rust
   book](https://docs.rust-embedded.org/discovery/)
+* [Embedded training from ferrous](https://embedded-trainings.ferrous-systems.com)
 
 ### [Ferrous Systems](https://ferrous-systems.com/)
 
@@ -23,20 +24,10 @@ embedded Rust.
 
 ### [Technocreatives](https://technocreatives.com)
 
-Consultancy firm based in Sweden.
-
-
-### [Variant](https://variant.no)
-
-Consultancy firm who sponsors the Rust Trondheim Meetup.
-
-### [Kodeworks](https://kodeworks.no/)
-
-Consultancy firm who sponsors the Rust Trondheim Meetup. Also the
-location where this workshop first were held.
+Consultancy firm based in Sweden which does some embedded work in Rust.
 
 Embedded Rust community on Matrix.org
 [#rust-embedded:matrix.org](https://matrix.to/#/!BHcierreUuwCMxVqOf:matrix.org)
 
 nRF Rust community on Matrix.org
-[#rust-embedded:matrix.org](https://matrix.to/#/!BHcierreUuwCMxVqOf:matrix.org)
+[#nrf-rust:matrix.org](https://matrix.to/#/!BHcierreUuwCMxVqOf:matrix.org)
