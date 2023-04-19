@@ -1,1 +1,0 @@
-# Explaining an embedded program

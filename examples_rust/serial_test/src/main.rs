@@ -2,16 +2,25 @@
 #![no_main]
 
 use defmt_rtt as _;
-use panic_halt as _;
 use defmt as _;
 
 use cortex_m_rt::entry;
+use core::panic::PanicInfo;
+use cortex_m::asm;
 
 use microbit::{
     hal::{
         prelude::*,
     },
 };
+
+#[panic_handler]
+fn panic(info: &PanicInfo) -> ! {
+    defmt::error!("{}", defmt::Debug2Format(&info));
+
+    // abort instruction: triggers a HardFault exception which causes probe-run to exit
+    asm::udf()
+}
 
 use core::fmt::Write;
 
