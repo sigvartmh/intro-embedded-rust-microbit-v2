@@ -68,7 +68,7 @@ cargo install cargo-generate
 Is a superset of a great tool called probe-rs(https://github.com/probe-rs/probe-rs).
 
 ``` console
-cargo install cargo-generate
+cargo install cargo-embed
 ```
 
 ### Knurling Tools
