@@ -1,0 +1,3 @@
+On top of all that, the elaborate Rust type system and ownership system allows developers to write code in such a way that the compiler verifies subsystems are used in a semantically correct way. For instance, a module could take ownership of a GPIO pin, ensuring that pin is not used in any other module by accident. Or, a driver can specify a peripheral be configured in a specific way. This can all be checked at compile time, greatly shortening the feedback loop.
+
+I could go on and on about this: available runtimes (RTIC, embassy), testing capabilities, how Rust can help on-boarding new developers, ...
